@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Multimedia</title>
+        <meta charset="utf8">
+		<center><h3>REPRODUCCION DE VIDEO</h3></center>
+</head>
+<body onload="generar()" bgcolor="silver">
+<div id="contenido">
+</body>
+</html>
+<script>
+function generar()
+{
+var cont="";
+	  //cont+="<br>";
+	  cont+="<center>";
+      cont+=" <video controls src='Drake Bell - I Know.mp4' type='Drake Bell - I Know/mp4' poster=''>" ;
+	  cont+="</video>";
+	  cont+="</center>";
+	  cont+="<br>";
+	  cont+="<audio src='Daddy Yankee - Pasarela.mp3' type='Daddy Yankee - Pasarela/mp3; codecs=MP3'  controls>";
+	  cont+="</audio>";
+	  document.getElementById('contenido').innerHTML=cont;
+}
+</script>
